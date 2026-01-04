@@ -5,13 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Pack
-      uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
-        name: 'KRYPTON - Pack 36'
+        name: 'KRYPTON - Pack No.36'
         path: |
-          KRYPTON Preset Pack
-          KRYPTON Sample Pack
+          KRYPTON presets
+          KRYPTON projects
+          KRYPTON samples
           LICENSE
           !./**/*.md
 
